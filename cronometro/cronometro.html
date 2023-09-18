@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="./css/styles.css">
+	<script src="./script/cronometro.js" defer></script>
+
+<title>Cronometro Javascript</title>
+</head>
+<body>
+  <div class="container">	<!--conteudo geral-->
+    <h1 class="title">Cronômetro.js</h1>
+    <div class="timer">		<!-- div do contador-->
+      <div class="horas" id="hours">00</div>
+      <div class="separator">:</div>
+      <div class="minutos" id="minutes">00</div>
+      <div class="separator">:</div>
+      <div class="segundos" id="seconds">00</div>
+      <div class="separator">:</div>
+      <div class="milisegundos" id="milisec">000</div>
+    </div>
+    <div class="buttons"><!-- div dos botoes-->
+    <button class="btn-iniciar btn"   id="startbtn">Iniciar</button>
+    <button class="btn-pausar btn"    id="pausebtn">Pausar</button>
+    <button class="btn-continuar btn" id="resumebtn">Continuar</button>
+    <button class="btn-zerar btn"     id="resetbtn">Zerar</button>
+  </div>
+  </div>
+</body>
+</html>
